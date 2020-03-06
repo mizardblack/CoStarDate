@@ -240,6 +240,55 @@
     to {opacity: 1}
   }
 
+  #cover{
+    position: absolute;
+    top:0;
+    left:0;
+    height:120%;
+    width:100%;
+    background-color: black;
+  }
+
+  #cover-text{
+    position: absolute;
+    top:150px;
+    right:140px;
+    /* margin:150px -500px 0 0; */
+    font-style: italic;
+    font-weight: 100;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+  }
+  #cover-text:hover{
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .wheel{
+   position: absolute;
+   height:700px;
+   width:auto;
+   top:30%;
+   left:-100px;
+   margin:0px;
+   overflow: hidden;
+  }
+  .rotate:hover{
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 10s;
+    animation-name: rotate;
+    animation-duration: 10s;
+  }
+  @keyframes rotate{
+    from {transform: rotate(0);} 
+    to {transform: rotate(360deg);}
+  }
+  @-webkit-keyframes rotate{
+    from {transform: rotate(0);} 
+    to {transform: rotate(360deg);}
+  }
+
   /* Responsive layout =========================================================================== */
     @media (max-width: 600px) {
       .grid-container  {

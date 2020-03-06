@@ -10,7 +10,7 @@ font-family: ratio, sans-serif;
 }
 .container {
 width: 400px;
-margin: 20px auto;
+margin: 0px auto;
 background-color: #fff;
 padding: 0 20px 20px;
 border-radius: 6px;
@@ -65,17 +65,20 @@ transform: rotateY(180deg);
 -webkit-transform: rotateY(180deg);
 opacity: 0;
 }
+.info-container{
+    padding:0 20px;
+}
 h2 {
 font-size: 32px;
 font-weight: 600;
-margin-bottom: 15px;
+margin-bottom: 5px;
 color: #333;
 }
 h4 {
 font-size: 13px;
 color: #c9c9c9ff;
 letter-spacing: 1px;
-margin-bottom: 25px
+margin-bottom: 5px
 }
 p {
 font-size: 16px;
@@ -83,7 +86,7 @@ line-height: 26px;
 margin-bottom: 20px;
 color: #666;
 }
-/* 
+
 h1 {
 
 font-size: 32px;
@@ -92,7 +95,7 @@ margin-bottom: 20px;
 color: #333;
 text-align: center;
 
-} */
+}
 
 .send-msg{
     font-size: 32px;
@@ -100,7 +103,7 @@ text-align: center;
     padding: 20px 0;
     color: #333;
     text-align: center;
-    font-weight: 300 !important; 
+    font-weight: 100 !important; 
     font-style: italic; 
     text-decoration: none;
     border-radius: 10px;
